@@ -6,6 +6,9 @@ Projects, ProjectsPage {
   margin-bottom: 50px;
 }
 
+#proj:hover {
+  background-color: pink;
+}
 .title {
 
 }

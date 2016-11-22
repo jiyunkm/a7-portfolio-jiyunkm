@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, CardActions,  CardMedia, CardHeader} from 'material-ui/Card';
+import {Card, CardActions,  CardMedia, CardHeader, CardTitle} from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import './css/Project.css'
@@ -19,7 +19,7 @@ var Projects = React.createClass({
 			<div id="proj">
         <MuiThemeProvider>
 				<Card expanded={this.state.expanded} onExpandChange={this.expandCard}>
-           <CardHeader id= "hello"
+           <CardTitle id= "hello"
              title={this.props.name}
              subtitle={this.props.description}
              actAsExpander={true}
