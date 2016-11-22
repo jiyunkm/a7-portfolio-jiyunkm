@@ -1,11 +1,11 @@
 // Page of quotes to show
-import React, { Component } from 'react';
-import Baby from 'babyparse';
+import React from 'react';
+//import Baby from 'babyparse';
 //import './css/Quote.css';
-import $ from 'jquery';
+//import $ from 'jquery';
 import './css/profile.css';
-import {Card, CardActions, CardHeader, CardText, CardMedia} from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
+import {Card, CardHeader, CardText, CardMedia} from 'material-ui/Card';
+//import FlatButton from 'material-ui/FlatButton';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 // QuotePage component
@@ -23,7 +23,7 @@ var ProfilePage = React.createClass({
 				<MuiThemeProvider>
 				<Card id="info">
 				<CardMedia>
-					<img src="img/profile.png" alt="Photo of Ji Yun (Janice) Martel" />
+					<img src="img/profile.png" alt="Ji Yun (Janice) Martel" />
 				</CardMedia>
 				</Card>
 				</MuiThemeProvider>
